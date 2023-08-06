@@ -1,0 +1,338 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  font-size: 1.3rem;
+  background-color: #80bff3;
+  padding: 1rem;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-size: 1.3rem;
+}
+.active {
+  text-decoration: underline;
+}
+/* header css */
+.header-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #85c3f5;
+  color: #151515;
+}
+.header-content {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading-text {
+  font-size: 1.5rem;
+  padding: 5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-us {
+  background-color: #d2ec7b;
+  border: none;
+  border-radius: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Principle */
+.principle-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.principle-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.card-title {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.card {
+  margin: 1rem;
+  padding: 1.3rem;
+  background-color: #f9b3d6;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.card-text {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+.contact-us {
+  padding: 1rem;
+  margin: 7rem;
+}
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.form-control {
+  padding: 1rem;
+  font-size: 1rem;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+  padding: 3rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9b3d6;
+  padding: 5rem;
+  gap: 3rem;
+}
+.footer-heading {
+  font-size: 2rem;
+}
+.fa-brands {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.form-label {
+  font-size: 1.2rem;
+}
+.Main {
+  background-color: #80bff3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+.insta-img {
+  width: 40rem;
+  margin-top: 2rem;
+}
+.Main p {
+  font-size: 4rem;
+}
+.Main div {
+  font-size: 2rem;
+}
+.second-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 3rem;
+  background-color: #fbbcdb;
+  margin-top: 1rem;
+}
+.third-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 3rem;
+  background-color: #f1e8ed;
+  margin-top: 1rem;
+}
+.second-text p {
+  font-size: 3rem;
+}
+.second-text div {
+  font-size: 1.5rem;
+}
+.unleash {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1160;
+  color: white;
+  padding: 4rem;
+  margin-top: 3rem;
+  padding-bottom: 7rem;
+}
+.last-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  background-color: #7762f0;
+  color: white;
+}
+.last-info p {
+  font-size: 3rem;
+  margin-right: 7rem;
+}
+.submit {
+  width: 14rem;
+}
+.contact-new-img {
+  width: 10rem;
+  height: 10rem;
+}
+.carousel-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  border-radius: 50%;
+}
+.carousel {
+  display: flex;
+}
+.image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-decoration: none;
+  word-spacing: 2px;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+@media screen and (max-width: 600px) {
+  .header-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-content {
+    font-size: 1rem;
+  }
+  .header-image {
+    width: 20rem;
+  }
+  .heading-text {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .principle-heading {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .card-text {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+  .footer {
+    padding: 2rem;
+  }
+  .footer-heading {
+    font-size: 1.3rem;
+  }
+  .fa-brands {
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2rem;
+  }
+  .Main {
+    background-color: #80bff3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+  }
+  .Main p {
+    font-size: 1.5rem;
+  }
+  .Main div {
+    font-size: 1rem;
+  }
+  .insta-img {
+    width: 20rem;
+    margin-top: 2rem;
+  }
+  .second-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .third-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .second-text p {
+    font-size: 1.5rem;
+  }
+  .second-text div {
+    font-size: 1.3rem;
+  }
+  .unleash {
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 1rem;
+  }
+  .form-control {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .last-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #7762f0;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+  .last-info p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+}
